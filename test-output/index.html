@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CRM_Test_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">CRM Test Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\nsuka\eclipse-workspace\CRMTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CRM_Test_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CRM_Test_Automation_Suite" class="hide-methods passed suite-CRM_Test_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-CRM_Test_Automation_Suite -->
+                      <a href="#" panel-name="suite-CRM_Test_Automation_Suite" class="show-methods passed suite-CRM_Test_Automation_Suite"> (show)</a> <!-- show-methods passed suite-CRM_Test_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-CRM_Test_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.HomePageTest" class="method navigator-link" hash-for-method="VerifyHomePageTitleTest">VerifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.LoginPageTest" class="method navigator-link" hash-for-method="crmLogoImageValidation">crmLogoImageValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleValidationtest">loginPageTitleValidationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="selectMultipleContactsByNameTest">selectMultipleContactsByNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="selectSingleContactsByNameTest">selectSingleContactsByNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreateNewContactTest(Mr., Athira, Ashwin, MySoft)">validateCreateNewContactTest(Mr., Athira, Ashwin, MySoft)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreateNewContactTest(Dr., Rishika, Shah, PAMF)">validateCreateNewContactTest(Dr., Rishika, Shah, PAMF)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="validateCreateNewContactTest(Mrs., Uma, Ravi, Oracle)">validateCreateNewContactTest(Mrs., Uma, Ravi, Oracle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.HomePageTest" class="method navigator-link" hash-for-method="verifyContactLinkTest">verifyContactLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.ContactsPageTest" class="method navigator-link" hash-for-method="verifyContactsLabelTest">verifyContactsLabelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CRM_Test_Automation_Suite" title="com.crmapp.qa.testsuite.HomePageTest" class="method navigator-link" hash-for-method="verifyUserNameTest">verifyUserNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CRM_Test_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CRM_Test_Automation_Suite" class="panel CRM_Test_Automation_Suite">
+          <div class="suite-CRM_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crmapp.qa.testsuite.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="crmLogoImageValidation">
+                  </a> <!-- crmLogoImageValidation -->
+                  <span class="method-name">crmLogoImageValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleValidationtest">
+                  </a> <!-- loginPageTitleValidationtest -->
+                  <span class="method-name">loginPageTitleValidationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRM_Test_Automation_Suite-class-passed -->
+          <div class="suite-CRM_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crmapp.qa.testsuite.ContactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMultipleContactsByNameTest">
+                  </a> <!-- selectMultipleContactsByNameTest -->
+                  <span class="method-name">selectMultipleContactsByNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectSingleContactsByNameTest">
+                  </a> <!-- selectSingleContactsByNameTest -->
+                  <span class="method-name">selectSingleContactsByNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateNewContactTest(Mr., Athira, Ashwin, MySoft)">
+                  </a> <!-- validateCreateNewContactTest(Mr., Athira, Ashwin, MySoft) -->
+                  <span class="method-name">validateCreateNewContactTest</span>
+                  <span class="parameters">(Mr., Athira, Ashwin, MySoft)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateNewContactTest(Dr., Rishika, Shah, PAMF)">
+                  </a> <!-- validateCreateNewContactTest(Dr., Rishika, Shah, PAMF) -->
+                  <span class="method-name">validateCreateNewContactTest</span>
+                  <span class="parameters">(Dr., Rishika, Shah, PAMF)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCreateNewContactTest(Mrs., Uma, Ravi, Oracle)">
+                  </a> <!-- validateCreateNewContactTest(Mrs., Uma, Ravi, Oracle) -->
+                  <span class="method-name">validateCreateNewContactTest</span>
+                  <span class="parameters">(Mrs., Uma, Ravi, Oracle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactsLabelTest">
+                  </a> <!-- verifyContactsLabelTest -->
+                  <span class="method-name">verifyContactsLabelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRM_Test_Automation_Suite-class-passed -->
+          <div class="suite-CRM_Test_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crmapp.qa.testsuite.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomePageTitleTest">
+                  </a> <!-- VerifyHomePageTitleTest -->
+                  <span class="method-name">VerifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactLinkTest">
+                  </a> <!-- verifyContactLinkTest -->
+                  <span class="method-name">verifyContactLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyUserNameTest">
+                  </a> <!-- verifyUserNameTest -->
+                  <span class="method-name">verifyUserNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CRM_Test_Automation_Suite-class-passed -->
+        </div> <!-- panel CRM_Test_Automation_Suite -->
+        <div panel-name="test-xml-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nsuka\eclipse-workspace\CRMTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CRM Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crmapp.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;CRM App Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crmapp.qa.testsuite.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crmapp.qa.testsuite.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.crmapp.qa.testsuite.ContactsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CRM App Test --&gt;
+&lt;/suite&gt; &lt;!-- CRM Test Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CRM Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CRM App Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CRM Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CRM Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CRM_Test_Automation_Suite');
+function tableData_CRM_Test_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.crmapp.qa.testsuite.LoginPageTest')
+data.setCell(0, 3, 5880);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateCreateNewContactTest')
+data.setCell(1, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(1, 3, 4751);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateCreateNewContactTest')
+data.setCell(2, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(2, 3, 3174);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateCreateNewContactTest')
+data.setCell(3, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(3, 3, 3150);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyContactLinkTest')
+data.setCell(4, 2, 'com.crmapp.qa.testsuite.HomePageTest')
+data.setCell(4, 3, 1323);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectMultipleContactsByNameTest')
+data.setCell(5, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(5, 3, 232);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'selectSingleContactsByNameTest')
+data.setCell(6, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(6, 3, 106);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyUserNameTest')
+data.setCell(7, 2, 'com.crmapp.qa.testsuite.HomePageTest')
+data.setCell(7, 3, 93);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'crmLogoImageValidation')
+data.setCell(8, 2, 'com.crmapp.qa.testsuite.LoginPageTest')
+data.setCell(8, 3, 60);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyContactsLabelTest')
+data.setCell(9, 2, 'com.crmapp.qa.testsuite.ContactsPageTest')
+data.setCell(9, 3, 38);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageTitleValidationtest')
+data.setCell(10, 2, 'com.crmapp.qa.testsuite.LoginPageTest')
+data.setCell(10, 3, 25);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyHomePageTitleTest')
+data.setCell(11, 2, 'com.crmapp.qa.testsuite.HomePageTest')
+data.setCell(11, 3, 15);
+window.suiteTableData['CRM_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-CRM_Test_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-CRM_Test_Automation_Suite">
+              </div> <!-- times-div-CRM_Test_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CRM Test Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CRM_Test_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crmapp.qa.testsuite.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleValidationtest</span>
+                <span class="method-start">7439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7466 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">crmLogoImageValidation</span>
+                <span class="method-start">14919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14981 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">22216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28097 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crmapp.qa.testsuite.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomePageTitleTest</span>
+                <span class="method-start">41014 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyUserNameTest</span>
+                <span class="method-start">53087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactLinkTest</span>
+                <span class="method-start">65894 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">67218 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crmapp.qa.testsuite.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">67936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactsLabelTest</span>
+                <span class="method-start">78645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">78683 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectSingleContactsByNameTest</span>
+                <span class="method-start">91010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectMultipleContactsByNameTest</span>
+                <span class="method-start">106297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106529 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreateNewContactTest(Mr., Athira, Ashwin, MySoft)</span>
+                <span class="method-start">118375 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123889 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreateNewContactTest(Dr., Rishika, Shah, PAMF)</span>
+                <span class="method-start">134710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">137885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">138629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCreateNewContactTest(Mrs., Uma, Ravi, Oracle)</span>
+                <span class="method-start">149486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">152637 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
