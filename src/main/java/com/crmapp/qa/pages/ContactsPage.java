@@ -10,7 +10,7 @@ import com.crmapp.qa.base.TestBase;
 
 public class ContactsPage  extends TestBase {
 
-	
+	//ContactsPage
 	//1.Define Page Objects
 	
 			@FindBy(xpath="//td[contains(text(),'Contacts')]")

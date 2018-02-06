@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.crmapp.qa.base.TestBase;
 
 public class HomePage  extends TestBase{
+	//Homepage
 	//1.Define Page Objects
 	
 		@FindBy(xpath="//td[contains(text(),'User: Sukanya Natarajan')]")
